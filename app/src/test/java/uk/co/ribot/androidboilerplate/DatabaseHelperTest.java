@@ -1,4 +1,4 @@
-package uk.co.ribot.androidboilerplate;
+package org.zulu.apps.alerto;
 
 import android.database.Cursor;
 
@@ -13,12 +13,12 @@ import java.util.Arrays;
 import java.util.List;
 
 import rx.observers.TestSubscriber;
-import uk.co.ribot.androidboilerplate.data.local.DatabaseHelper;
-import uk.co.ribot.androidboilerplate.data.local.Db;
-import uk.co.ribot.androidboilerplate.data.local.DbOpenHelper;
-import uk.co.ribot.androidboilerplate.data.model.Ribot;
-import uk.co.ribot.androidboilerplate.test.common.TestDataFactory;
-import uk.co.ribot.androidboilerplate.util.DefaultConfig;
+import org.zulu.apps.alerto.data.local.DatabaseHelper;
+import org.zulu.apps.alerto.data.local.Db;
+import org.zulu.apps.alerto.data.local.DbOpenHelper;
+import org.zulu.apps.alerto.data.model.Ribot;
+import org.zulu.apps.alerto.test.common.TestDataFactory;
+import org.zulu.apps.alerto.util.DefaultConfig;
 
 import static junit.framework.Assert.assertEquals;
 

@@ -1,4 +1,4 @@
-package uk.co.ribot.androidboilerplate.util;
+package org.zulu.apps.alerto.util;
 
 /**
  * Robolectric default config properties

@@ -1,4 +1,4 @@
-package uk.co.ribot.androidboilerplate;
+package org.zulu.apps.alerto;
 
 import org.junit.After;
 import org.junit.Before;
@@ -12,12 +12,12 @@ import java.util.Collections;
 import java.util.List;
 
 import rx.Observable;
-import uk.co.ribot.androidboilerplate.data.DataManager;
-import uk.co.ribot.androidboilerplate.data.model.Ribot;
-import uk.co.ribot.androidboilerplate.test.common.TestDataFactory;
-import uk.co.ribot.androidboilerplate.ui.main.MainMvpView;
-import uk.co.ribot.androidboilerplate.ui.main.MainPresenter;
-import uk.co.ribot.androidboilerplate.util.RxSchedulersOverrideRule;
+import org.zulu.apps.alerto.data.DataManager;
+import org.zulu.apps.alerto.data.model.Ribot;
+import org.zulu.apps.alerto.test.common.TestDataFactory;
+import org.zulu.apps.alerto.ui.main.MainMvpView;
+import org.zulu.apps.alerto.ui.main.MainPresenter;
+import org.zulu.apps.alerto.util.RxSchedulersOverrideRule;
 
 import static org.mockito.Matchers.anyListOf;
 import static org.mockito.Mockito.doReturn;

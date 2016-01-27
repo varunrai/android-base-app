@@ -1,4 +1,4 @@
-package uk.co.ribot.androidboilerplate;
+package org.zulu.apps.alerto;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -11,13 +11,13 @@ import java.util.List;
 
 import rx.Observable;
 import rx.observers.TestSubscriber;
-import uk.co.ribot.androidboilerplate.data.DataManager;
-import uk.co.ribot.androidboilerplate.data.local.DatabaseHelper;
-import uk.co.ribot.androidboilerplate.data.local.PreferencesHelper;
-import uk.co.ribot.androidboilerplate.data.model.Ribot;
-import uk.co.ribot.androidboilerplate.data.remote.RibotsService;
-import uk.co.ribot.androidboilerplate.test.common.TestDataFactory;
-import uk.co.ribot.androidboilerplate.util.EventPosterHelper;
+import org.zulu.apps.alerto.data.DataManager;
+import org.zulu.apps.alerto.data.local.DatabaseHelper;
+import org.zulu.apps.alerto.data.local.PreferencesHelper;
+import org.zulu.apps.alerto.data.model.Ribot;
+import org.zulu.apps.alerto.data.remote.RibotsService;
+import org.zulu.apps.alerto.test.common.TestDataFactory;
+import org.zulu.apps.alerto.util.EventPosterHelper;
 
 import static org.mockito.Matchers.anyListOf;
 import static org.mockito.Mockito.never;
