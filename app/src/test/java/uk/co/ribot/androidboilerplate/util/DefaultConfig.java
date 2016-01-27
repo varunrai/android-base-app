@@ -1,4 +1,4 @@
-package org.zulu.apps.alerto.util;
+package org.zulu.apps.sgx.util;
 
 /**
  * Robolectric default config properties

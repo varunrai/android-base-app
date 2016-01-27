@@ -1,4 +1,4 @@
-package org.zulu.apps.alerto;
+package org.zulu.apps.sgx;
 
 import android.database.Cursor;
 
@@ -13,12 +13,12 @@ import java.util.Arrays;
 import java.util.List;
 
 import rx.observers.TestSubscriber;
-import org.zulu.apps.alerto.data.local.DatabaseHelper;
-import org.zulu.apps.alerto.data.local.Db;
-import org.zulu.apps.alerto.data.local.DbOpenHelper;
-import org.zulu.apps.alerto.data.model.Ribot;
-import org.zulu.apps.alerto.test.common.TestDataFactory;
-import org.zulu.apps.alerto.util.DefaultConfig;
+import org.zulu.apps.sgx.data.local.DatabaseHelper;
+import org.zulu.apps.sgx.data.local.Db;
+import org.zulu.apps.sgx.data.local.DbOpenHelper;
+import org.zulu.apps.sgx.data.model.Ribot;
+import org.zulu.apps.sgx.test.common.TestDataFactory;
+import org.zulu.apps.sgx.util.DefaultConfig;
 
 import static junit.framework.Assert.assertEquals;
 

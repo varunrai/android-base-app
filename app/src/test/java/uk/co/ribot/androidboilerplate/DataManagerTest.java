@@ -1,4 +1,4 @@
-package org.zulu.apps.alerto;
+package org.zulu.apps.sgx;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -11,13 +11,13 @@ import java.util.List;
 
 import rx.Observable;
 import rx.observers.TestSubscriber;
-import org.zulu.apps.alerto.data.DataManager;
-import org.zulu.apps.alerto.data.local.DatabaseHelper;
-import org.zulu.apps.alerto.data.local.PreferencesHelper;
-import org.zulu.apps.alerto.data.model.Ribot;
-import org.zulu.apps.alerto.data.remote.RibotsService;
-import org.zulu.apps.alerto.test.common.TestDataFactory;
-import org.zulu.apps.alerto.util.EventPosterHelper;
+import org.zulu.apps.sgx.data.DataManager;
+import org.zulu.apps.sgx.data.local.DatabaseHelper;
+import org.zulu.apps.sgx.data.local.PreferencesHelper;
+import org.zulu.apps.sgx.data.model.Ribot;
+import org.zulu.apps.sgx.data.remote.RibotsService;
+import org.zulu.apps.sgx.test.common.TestDataFactory;
+import org.zulu.apps.sgx.util.EventPosterHelper;
 
 import static org.mockito.Matchers.anyListOf;
 import static org.mockito.Mockito.never;

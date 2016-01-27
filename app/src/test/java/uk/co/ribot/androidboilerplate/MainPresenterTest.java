@@ -1,4 +1,4 @@
-package org.zulu.apps.alerto;
+package org.zulu.apps.sgx;
 
 import org.junit.After;
 import org.junit.Before;
@@ -12,12 +12,12 @@ import java.util.Collections;
 import java.util.List;
 
 import rx.Observable;
-import org.zulu.apps.alerto.data.DataManager;
-import org.zulu.apps.alerto.data.model.Ribot;
-import org.zulu.apps.alerto.test.common.TestDataFactory;
-import org.zulu.apps.alerto.ui.main.MainMvpView;
-import org.zulu.apps.alerto.ui.main.MainPresenter;
-import org.zulu.apps.alerto.util.RxSchedulersOverrideRule;
+import org.zulu.apps.sgx.data.DataManager;
+import org.zulu.apps.sgx.data.model.Ribot;
+import org.zulu.apps.sgx.test.common.TestDataFactory;
+import org.zulu.apps.sgx.ui.main.MainMvpView;
+import org.zulu.apps.sgx.ui.main.MainPresenter;
+import org.zulu.apps.sgx.util.RxSchedulersOverrideRule;
 
 import static org.mockito.Matchers.anyListOf;
 import static org.mockito.Mockito.doReturn;

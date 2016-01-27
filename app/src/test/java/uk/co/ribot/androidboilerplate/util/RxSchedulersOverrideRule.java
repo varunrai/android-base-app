@@ -1,4 +1,4 @@
-package org.zulu.apps.alerto.util;
+package org.zulu.apps.sgx.util;
 
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;
